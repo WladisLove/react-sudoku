@@ -1,0 +1,9 @@
+.board-container{
+    display: flex;
+    justify-content: center;
+}
+
+.sudoku-board{
+    display: inline-flex;
+    flex-direction: column;
+}

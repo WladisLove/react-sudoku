@@ -1,0 +1,9 @@
+.sudoku-row{
+    display: inline-flex;
+    flex-direction: row;
+    width: auto;
+}
+
+.sudoku-row:nth-child(3n):not(:last-child){
+    border-bottom: 2px solid black;
+}
